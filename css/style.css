@@ -1,0 +1,35 @@
+body,
+html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Syne', sans-serif;
+      color: rgb(238, 184, 8);
+}
+
+.landing-view {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/neon-background.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-message {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*h1 {
+        grid-row-start: 3;
+        grid-column-start: 3;
+}*/
+
+/*.main-message {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}*/
